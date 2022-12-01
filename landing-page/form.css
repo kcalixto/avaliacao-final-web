@@ -1,0 +1,37 @@
+.form-section {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    /* border: 1px solid green */
+}
+
+.form-section img {
+    width: 60vw;
+    height: fit-content;
+}
+
+.form-section .form-wrapper {
+    max-width: 40vw;
+}
+
+.form-section label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.form-section div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.form-section .complete input {
+    padding: 1rem;
+}
+
+#edit_message{
+    border: none;
+    overflow: visible;
+    pointer-events: none;
+}

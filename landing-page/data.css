@@ -1,0 +1,56 @@
+.data-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.data-section p{
+    margin-bottom: 0.5rem;
+}
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: var(--max-chamado-size);
+    max-height: var(--max-chamado-size);
+}
+
+.data-content{
+    margin-bottom: 1rem;
+}
+
+.data-content .data-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.edit-button {
+    color: white;
+    background-color: coral;
+}
+
+.delete-button {
+    color: white;
+    background-color:brown;
+}
+
+.close-button {
+    color: white;
+    background-color:cadetblue;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.buttons-container button{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding: 0.25rem 1.5rem 0.25rem 1.5rem; */
+}

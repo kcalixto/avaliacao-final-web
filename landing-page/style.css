@@ -1,0 +1,57 @@
+:root{
+    --max-chamado-size: 30rem;
+}
+
+body{
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+header .call-us{
+    display: flex;
+    flex-direction: row;
+}
+
+header .call-us img{
+    max-width: 16px;
+    padding-left: 1rem;
+}
+
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 5px solid lightcoral;
+    border-radius: 15px;
+
+}
+.main-box img{
+    max-width: 256px;
+    padding: 5rem;
+}
+
+.main-box .main-box-texts{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 5rem;
+}
+
+.main-box-texts h1{
+    font-size: 3.2rem;
+}
+.main-box-texts h2{
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+}
+

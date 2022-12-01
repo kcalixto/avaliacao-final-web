@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css-reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./data.css">
+    <link rel="stylesheet" href="./form.css">
+    <title>Chamados.net</title>
+</head>
+
+<body>
+    <header>
+        <p class="header-title">Chamados.net</p>
+        <div class="call-us">
+            <p class="header-sub-title">Call us</p>
+            <img src="./images/call-us.png" alt="ícone de telefone">
+        </div>
+    </header>
+
+    <section class="container">
+        <section class="main-box">
+            <div class="main-box-texts">
+                <h1 class="main-box-title">Algum problema com nossos serviços?</h1>
+                <h2 class="main-box-sub-title">Abra um chamado!</h2>
+            </div>
+            <div>
+                <img src="images/call-us.png" alt="">
+            </div>
+        </section>
+
+        <section class="form-section">
+            <img src="images/form-left-image.png" alt="">
+            <div class="form-wrapper">
+                <form action="#" method="post" id="chamado-form" name="form">
+                    <div>
+                        <label for="edit_message"></label>
+                        <input type="text" name="edit_message" id="edit_message"></input>
+                    </div>
+                    <div class="equipment">
+                        <label for="input_equipment">Equipamento</label>
+                        <select name="input_equipment" id="input_equipment">
+                        </select>
+                    </div>
+
+                    <div class="occurrency">
+                        <label for="input_date">Data da ocorrência</label>
+                        <input type="date" name="input_date" id="input_date">
+                    </div>
+
+                    <div class="employee">
+                        <label for="input_employee">Nome do Funcionário</label>
+                        <input type="text" name="input_employee" id="input_employee">
+                    </div>
+
+                    <div class="department">
+                        <label for="input_department">Nome do Departamento</label>
+                        <select name="input_department" id="input_department"></select>
+                    </div>
+
+                    <div class="description">
+                        <label for="input_description">Mais detalhes</label>
+                        <textarea name="input_description" id="input_description" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="complete">
+                        <input type="button" value="Salvar Chamado" id="complete-button">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="data-section">
+            <!-- <div class="data-container">
+                <p class="data-title">Chamado #00</p>
+                <div class="data-content">
+                    <p class="equipemnt_label">Monitor</p>
+                    <p class="date_label">30/11/2022</p>
+                    <p class="employee_label">Kauã Calixto</p>
+                    <p class="department_label">Departamento Aloha</p>
+                    <p class="description_label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                        nesciunt, quo maxime laboriosam earum reprehenderit? Laboriosam quo vel laudantium, dolores
+                        magni ut, voluptatum similique debitis odit velit voluptas natus autem?</p>
+                </div>
+            </div>
+            <div class="data-container">
+                <p class="data-title">Chamado #00</p>
+                <div class="data-content">
+                    <p class="equipemnt-label">Monitor</p>
+                    <p class="date-label">30/11/2022</p>
+                    <p class="employee-label">Kauã Calixto</p>
+                    <p class="department-label">Departamento Aloha</p>
+                    <p class="description-label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                        nesciunt, quo maxime laboriosam earum reprehenderit? Laboriosam quo vel laudantium, dolores
+                        magni ut, voluptatum similique debitis odit velit voluptas natus autem?</p>
+                </div>
+            </div>
+            <div class="data-container">
+                <p class="data-title">Chamado #00</p>
+                <div class="data-content">
+                    <p class="equipemnt-label">Monitor</p>
+                    <p class="date-label">30/11/2022</p>
+                    <p class="employee-label">Kauã Calixto</p>
+                    <p class="department-label">Departamento Aloha</p>
+                    <p class="description-label">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+                        nesciunt, quo maxime laboriosam earum reprehenderit? Laboriosam quo vel laudantium, dolores
+                        magni ut, voluptatum similique debitis odit velit voluptas natus autem?</p>
+                </div>
+            </div> -->
+        </section>
+        <section class="closed-data-section">
+            
+        </section>
+
+    </section>
+
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
